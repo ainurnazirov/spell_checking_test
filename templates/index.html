@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Spelling.Tatar</title>
+  <link href="../static/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="../static/favicon.png"/>
+</head>
+
+<body>
+  
+  <div>
+    <h1>SPELLING.TATAR</h1>
+  </div>
+  
+  <div>
+      <form action="" method="post">
+      {% csrf_token %}
+      {{ form.non_field_errors }}
+      <textarea name="text" placeholder="Тикшерү өчен текст кертегез...">{{checked_text}}</textarea>
+      <button type="submit">Тикшерергә</button>
+      </form>
+  </div>
+  
+  <footer>
+    &copy; Айнур Назиров
+  </footer>
+  
+</body>
+
+</html>

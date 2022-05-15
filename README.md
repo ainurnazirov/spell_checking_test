@@ -1,1 +1,1 @@
-# spell_checking_test
+# spell_checking_algorithm

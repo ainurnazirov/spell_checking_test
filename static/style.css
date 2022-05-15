@@ -1,0 +1,46 @@
+*{
+  background-color: #3BB08F;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+textarea{
+  width: 70vw;
+  height: 50vh;
+  resize: none;
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+p{
+  margin-bottom: 10px;
+}
+footer {
+  position: fixed;
+  color: #fff;
+  width: 100vw;
+  bottom: 0;
+  height: 40px;
+  font-size: 20px;
+  text-align: right;
+  right: 10px;
+}
+button{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 4vh;
+}
+h1{
+  color: #fff;
+  font-size: 10vh;
+}
